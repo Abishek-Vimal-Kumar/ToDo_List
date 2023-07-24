@@ -1,0 +1,59 @@
+header{
+  font-family:'Cambria';
+  font-size:50px;
+  text-align:center;
+  background: conic-gradient(maroon,navy);
+  color: white ;
+  height: 100 px;
+  padding: 20px;
+  margin-bottom:10px;
+}
+body{
+  background: linear-gradient(aliceblue,black) no-repeat;
+  height:1000px;
+  text-align: center;
+}
+footer{
+  color:white;
+  text-align: center;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:75px;   /* Height of the footer */
+  background:conic-gradient(maroon,navy);
+  font-size: 50px;
+}
+ul li{ 
+  list-style-type: none;
+}
+#cbox{
+   height: 100px;
+   width: 350px;
+   background-color: aliceblue;
+   border : 1px solid rgb(0, 0, 0);
+   padding:35px;
+   font-size: medium;
+   text-align: left;
+   margin-bottom:5px;
+   margin-top:5px;
+}
+#todo{
+  font-family:'Times New Roman';
+  font-size:35px;
+}
+#check{
+  height:30px;
+  width:30px;
+}
+#trash{
+  height:30px;
+  width:30px;
+}
+#addItem{
+  height: 40px;
+  width: 350px;
+  text-align: left;
+  padding:2px;
+  margin-bottom:25px;
+  margin-right: 10px;;
+}
